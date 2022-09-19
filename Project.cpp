@@ -5,8 +5,8 @@
 #include<string>
 using namespace std;
 
-const int SCREEN_WIDTH=910;
-const int SCREEN_HEIGHT=750;
+const int SCREEN_WIDTH=900;
+const int SCREEN_HEIGHT=700;
 
 const int arrSize=130;
 const int rectSize=7;
@@ -18,6 +18,7 @@ SDL_Window* window=NULL;
 SDL_Renderer* renderer=NULL;
 
 bool complete=false;
+
 
 bool init()
 {
